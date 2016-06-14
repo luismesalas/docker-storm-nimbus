@@ -1,4 +1,4 @@
-FROM luismesalas/storm:0.10.1
+FROM luismesalas/storm:1.0.1
 MAINTAINER luismesalas
 
 RUN /usr/bin/config-supervisord.sh nimbus 
